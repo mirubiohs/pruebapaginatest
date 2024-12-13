@@ -1,0 +1,455 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F39A1C;
+
+    color: #333;
+  }
+  
+  /* Header */
+  .faq-header {
+    text-align: center;
+    background-color: #F39A1C;
+    color: white;
+    padding: 20px 10px;
+  }
+  
+  .faq-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 20px;
+  }
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+  }
+  .menu-toggle {
+    position: absolute;
+    left: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .menu-toggle {
+    position: absolute;
+    left: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+ /* Dropdown Menu Styles */
+.menu {
+    position: fixed;
+    top: 130px; /* Justo debajo del header */
+    left: 0; /* Alineado al borde izquierdo */
+    background-color: black;
+    z-index: 999;
+    overflow: hidden; /* Elimina completamente las barras de desplazamiento */
+    height: 0; /* Oculto inicialmente */
+    width: 0; /* Oculto inicialmente */
+    padding: 0; /* Sin padding inicialmente */
+    transition: height 0.5s ease-out, width 0.5s ease-out, padding 0.5s ease-out; /* Animación suave */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Añade una sombra elegante */
+    background-color: #0B8456;
+  }
+  
+  /* Estilos para el contenido del menú */
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li, h2 {
+    padding: 10px 5px;
+    color: white;
+    text-align: center;
+    margin-top: 105px;
+    overflow-wrap: break-word; /* Ajusta las palabras largas */
+    word-wrap: break-word;     /* Compatibilidad con navegadores más antiguos */
+    
+  }
+  
+  .menu ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .menu .app-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .menu .app-link:hover {
+    text-decoration: underline;
+  }
+  
+  img.img-header {
+    display: block;
+    margin: 10px auto;
+    max-width: 70%;
+    height: auto;
+    margin-top: 20%;
+  }
+  
+  .button-googleplay {
+    color: #ffffff;
+    background-color: #F39A1C;
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+    cursor: pointer;
+    display: flex; /* Flexbox para alinear ícono y texto */
+    align-items: center; /* Centra verticalmente el contenido del botón */
+    gap: 10px; /* Espacio entre el ícono y el texto */
+    font-weight: bold;
+    
+  }
+  
+  .button-googleplay:hover {
+    
+    background-color: #f0a236;
+    color: white;
+    border: 2px solid #F39A1C;
+
+  }
+  
+  .button-googleplay .icon-left {
+    max-height: 30px; /* Ajusta el tamaño del ícono */
+  }
+  
+
+
+
+    /* Estilo para el Top Banner */
+    .top-banner {
+        background-color: #808080; /* Color gris */
+        color: white; /* Texto blanco */
+        text-align: center; /* Centrado del texto horizontalmente */
+        padding: 5px 0; /* Espaciado superior e inferior reducido */
+        font-weight: bold; /* Texto en negrita */
+        font-size: 1.2rem; /* Tamaño de la fuente */
+        top: 0;
+        width: 100%; /* Ocupa todo el ancho */
+        height: 15px; /* Ajustar la altura del banner */
+        display: flex; /* Usar Flexbox para centrar */
+        align-items: center; /* Centrar verticalmente */
+        justify-content: center; /* Centrar horizontalmente */
+        z-index: 1001; /* Asegura que esté por encima del header */
+      }
+    
+      /* Texto del Top Banner */
+      .top-banner-text {
+        margin: 0; /* Quita márgenes alrededor del texto */
+        line-height: 1.5; /* Ajusta la altura de línea para centrar mejor */
+        font-size: 15px;
+      }
+  /* FAQ Container */
+  .faq-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* FAQ Item */
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* FAQ Question */
+  .faq-question {
+    width: 100%;
+    background: #F39A1C;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq-question:hover {
+    background: black
+  }
+  
+  .faq-question .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  /* FAQ Answer */
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    background: #f9f9f9;
+    font-size: 1rem;
+    color: #555;
+    transition: max-height 0.3s ease;
+  }
+  
+  .faq-answer p {
+    margin: 10px 0;
+  }
+  
+  /* Open Answer */
+  .faq-item.open .faq-answer {
+    max-height: 150px; /* Ajusta según el contenido */
+  }
+  
+  .faq-item.open .faq-question .arrow {
+    transform: rotate(180deg);
+  }
+
+
+ 
+  .privacy-policy {
+    padding: 40px 20px;
+    background-color: #F39A1C;
+  }
+  
+  .privacy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .privacy-title {
+    font-size: 1.7em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-content h3 {
+    font-size: 0.9em;
+    color: #000000;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+  }
+  
+  .privacy-content p,.privacy-content li {
+    font-size: 0.7em;
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    
+  }
+  
+  .privacy-content p:last-child {
+    margin-bottom: 0;
+    font-size: 0.7em;
+  }
+  
+  .privacy-container:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Overlay para oscurecer la página */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad */
+    z-index: 998; /* Debajo del menú (z-index: 999 en el menú) */
+    display: none; /* Oculto por defecto */
+  }
+  
+  /* Media Queries para Responsividad */
+
+
+  /* Estilos Responsivos */
+
+/* Estilos Responsivos */
+
+/* Para dispositivos pequeños (teléfonos móviles) */
+@media (max-width: 768px) {
+  .menu {
+    top: 80px; /* Ajusta la posición */
+    width: 100%; /* Ocupa todo el ancho */
+    height: auto; /* Permite que el menú se expanda */
+    padding: 10px; /* Espacio interno */
+  }
+
+  .menu ul li, h2 {
+    margin-top: 30px; /* Reduce el margen superior */
+    font-size: 18px; /* Ajusta el tamaño del texto */
+  }
+
+  .button-googleplay {
+    font-size: 14px; /* Reduce el tamaño de la fuente */
+    padding: 15px; /* Botón más alto para facilidad de clic */
+    width: 90%; /* Ocupa la mayor parte del ancho */
+    max-width: 350px; /* Tamaño máximo del botón */
+    margin: 10px auto; /* Centra los botones y añade espacio */
+    display: flex; /* Flexbox para alinear ícono y texto */
+    justify-content: center; /* Centra el contenido horizontalmente */
+  }
+
+  .button-googleplay .icon-left {
+    max-height: 20px; /* Reduce el tamaño del ícono */
+  }
+
+  img.img-header {
+    margin-top: 10%; /* Reduce el margen superior */
+    max-width: 50%; /* Ajusta el tamaño de la imagen */
+  }
+}
+
+/* Para tablets (dispositivos medianos) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .menu {
+    top: 100px; /* Ajusta la posición */
+    width: 80%; /* Ocupa el 80% del ancho */
+    height: auto; /* Permite que el menú se expanda */
+    padding: 20px; /* Ajusta el espacio interno */
+  }
+
+  .menu ul li, h2 {
+    margin-top: 50px; /* Ajusta el margen superior */
+    font-size: 20px; /* Tamaño de texto intermedio */
+  }
+
+  .button-googleplay {
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    padding: 12px 25px; /* Ajusta el padding */
+    width: 80%; /* Botones más grandes */
+    max-width: 400px; /* Tamaño máximo */
+    margin: 15px auto; /* Centra los botones */
+    display: flex; /* Flexbox para alinear ícono y texto */
+    justify-content: center; /* Centra horizontalmente */
+  }
+
+  .button-googleplay .icon-left {
+    max-height: 25px; /* Ajusta el tamaño del ícono */
+  }
+
+  button.button-googleplay {
+    width: 50%;
+  }
+  img.img-header {
+    margin-top: 15%; /* Ajusta el margen superior */
+    max-width: 60%; /* Ajusta el tamaño de la imagen */
+  }
+
+  nav#menu {
+    width: 48% !important;
+  }
+  
+}
+
+/* Mobile (smaller than 768px) */
+@media (max-width: 768px) {
+  .menu {
+    padding: 15px;
+  }
+
+  .img-header {
+    max-width: 120px;
+    margin-bottom: 15px;
+  }
+
+  .menu h2 {
+    font-size: 16px;
+  }
+
+  .button-store {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+
+  .button-store .icon-left {
+    max-height: 20px;
+  }
+
+  nav#menu {
+    width: 48% !important;
+  }
+  button.button-googleplay {
+    width: 50%;
+  }
+}
+
+/* Tablet (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .menu {
+    padding: 20px;
+  }
+
+  .img-header {
+    max-width: 140px;
+  }
+
+  .menu h2 {
+    font-size: 18px;
+  }
+
+  .button-store {
+    font-size: 15px;
+    padding: 12px 13px;
+    border-radius: 25px;
+    width: 50%;
+  }
+
+  .button-store .icon-left {
+    max-height: 22px;
+  }
+
+
+
+
+}
