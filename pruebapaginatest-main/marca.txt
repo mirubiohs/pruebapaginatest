@@ -1,0 +1,69 @@
+
+Tipografia
+GODOROUNDED L   -  titulos o frases
+POPPINS - Cuerpo de texto o subtítulos
+
+Header  "Vibrant Grass" (#0B8456)
+
+Estilo Visual: Fondo blanco con texto en 
+"Vibrant Honey" (#F39A1C) 
+
+"Vibrant Grass" (#0B8456) para los subtítulos.
+
+Paleta de colores :
+
+
+Paleta Corporativa
+Vibrant Honey
+
+HEX: #F39A1C
+RGB: 243, 149, 28
+CMYK: C: 0, M: 40, Y: 93, K: 0
+Gray Scale: 39
+Valores Asociados: Energético, Felicidad, Calidez
+Vibrant Grass
+
+HEX: #0B8456
+RGB: 11, 132, 86
+CMYK: C: 85, M: 10, Y: 100, K: 10
+Gray Scale: 52
+Valores Asociados: Renovación, Frescura, Tranquilidad
+Paleta Complementaria
+Gris Suave
+
+HEX: #B2B2B1
+RGB: 178, 178, 177
+CMYK: C: 0, M: 0, Y: 0, K: 40
+Gray Scale: 40
+Valores Asociados: Seguridad, Confianza
+Blanco Azulino
+
+HEX: #F5F6FA
+RGB: 245, 246, 250
+CMYK: C: 5, M: 3, Y: 1, K: 0
+Gray Scale: No especificado
+Valores Asociados: Pureza, Claridad
+
+
+
+
+
+  
+  
+
+
+          Veep es una aplicación diseñada para conectar botillerías con sus clientes,
+          ofreciendo entregas rápidas y seguras directamente en la puerta de tu casa.
+    
+
+      
+          Veep es tu solución para el servicio delivery de botillerías. 
+          Ofrecemos rapidez, eficiencia y acceso a una red de botillerías en tu área.
+       
+
+        
+          Para que tu botillería esté disponible en Veep, es necesario que uses nuestro sistema 
+          POS Veep Punto de Venta. Esto permite que tu negocio sea detectado en nuestra app, 
+          abriendo la puerta a nuevos clientes.
+       
+  
